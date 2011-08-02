@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plugin SYSTEM "Plugin.dtd">
+<plugins>
+  <plugin>
+    <plugin>GPG finder</plugin>
+    <location>/plugins/4</location>
+    <last_update>1299320419</last_update>
+  </plugin>
+</plugins>

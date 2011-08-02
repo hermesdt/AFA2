@@ -1,0 +1,12 @@
+Reescritura del formato de plugin
+Rehecho toda la parte de los modelos (simplificado)
+Scheduler
+Analisis.
+Feedback del analisis.
+Interfaz
+Executor (creada la parte inicial).
+Version inicial de busqueda recursiva.
+Mejorado notablemente el feedback del analisis. ¿Habilitar rango de feedback? (mas/menos verbose)
+Version inicial de reporte PDF hecho.
+
+Tecnicas en grupo - recursivas. Notificar cuando acaba una, no esperar todas.

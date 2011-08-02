@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plugin SYSTEM "../Plugin.dtd">
+<plugin>
+  <metadata>
+    <name>GnuPG</name>
+    <os>MacOs</os>
+    <category>MacOs</category>
+    <author>Alvaro</author>
+    <description></description>
+    <last_updated>1301085134000</last_updated>
+    <tags>
+      <tag>tag_4</tag>
+      <tag>tag_5</tag>
+      <tag>tag_6</tag>
+    </tags>
+  </metadata>
+  <techniques>
+    <technique>
+      <name>GnuPG</name>
+      <type>find_file</type>
+      <location>/Principal/Library/Documentation</location>
+      <recursively>false</recursively>
+    </technique>
+    <technique>
+      <name>gpg.docs.english.pkg</name>
+      <type>find_file</type>
+      <location>/Principal/Library/Receipts</location>
+      <recursively>false</recursively>
+    </technique>
+  </techniques>
+</plugin>

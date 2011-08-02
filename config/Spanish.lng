@@ -1,0 +1,67 @@
+Introduzca su nombre: - Introduzca su nombre:
+Fichero de certificado: - Fichero de certificado:
+Seleccione las unidades sobre las que quiere realizar el analisis: - Seleccione las unidades sobre las que quiere realizar el analisis:
+Seleccione los plugins que desea utilizar en el analisis: - Seleccione los plugins que desea utilizar en el analisis:
+A mayor profundidad mayor tiempo empleado - A mayor profundidad mayor tiempo empleado
+Selecciona las acciones que desea ejecutar <br> de los siguientes programas encontrados - Selecciona las acciones que desea ejecutar <br> de los siguientes programas encontrados
+Seleccione el destino del informe en formato PDF: - Seleccione el destino del informe en formato PDF:
+Fichero de salida: - Fichero de salida:
+Firmar - Firmar
+Ejecuta el programa externo - Ejecuta el programa externo
+Busca imagenes encriptadas - Busca imagenes encriptadas
+Buscado - Buscado
+Buscado el archivo - Buscado el archivo
+Buscado Archivo en todo el disco - Buscado Archivo en todo el disco
+en una ubicacion del registro - en una ubicacion del registro
+Buscado el valor - Buscado el valor
+en todo el registro - en todo el registro
+en la seccion del registro - en la seccion del registro
+Busca una cadena en un archivo concreto - Busca una cadena en un archivo concreto
+Busca la cadena - Busca la cadena
+en los archivos de todo el disco - en los archivos de todo el disco
+Busca una cadena en los archivos del directorio - Busca una cadena en los archivos del directorio
+en el directorio - en el directorio
+No se ha elegido un fichero para firmar, no se podran firmar los informes - No se ha elegido un fichero para firmar, no se podran firmar los informes
+Datos del analista forense - Datos del analista forense
+Seleccion de la unidad - Seleccion de la unidad
+Seleccion de los plugins - Seleccion de los plugins
+Profundidad de analisis - Profundidad de analisis
+Programas detectados: - Programas detectados:
+Generacion del informe: - Generacion del informe:
+COMPROBACIONES - COMPROBACIONES
+Fecha - Fecha
+Analista - Analista
+Tecnica que : - Tecnica que :
+Comprueba si el software esta: - Comprueba si el software esta:
+RESULTADOS: - RESULTADOS:
+Tipo parametro: - Buscado:
+Valor: - Encontrado:
+ACCIONES - ACCIONES
+Accion que: - Accion que:
+La accion - La accion
+tiene explicacion - tiene explicacion
+Resultados de la accion: - Resultados de la accion:
+No hay resultados asociados a la accion - No hay resultados asociados a la accion
+Firmar pdf de analisis forense - Firmar pdf de analisis forense
+Pais - Espa�a
+Buscando en todo el disco ficheros - Buscando ficheros en todo el disco 
+Buscando en todo el disco cadenas - Buscando cadenas en todo el disco 
+Buscando en la unidad - Buscando en la unidad
+Espere por favor,realizando las operaciones solicitadas - Espere por favor,realizando las operaciones solicitadas
+Anterior - < Anterior
+Siguiente - Siguiente >
+Finalizar - Finalizar
+Cancelar - Cancelar
+Ayuda - Ayuda
+Introduzca su clave para firmar: - Introduzca su clave para firmar:
+Ejecutado sobre la unidad - Ejecutado sobre la unidad
+Bajo - Bajo
+Medio - Medio
+Alto - Alto
+Se han encontrado resultados con el plugin - Se han encontrado resultados con el plugin
+Resumen - Resumen
+El plugin - El plugin
+ha encontrado restos del software - ha encontrado restos del software
+Seleccionar todo - Seleccionar todo
+Se ha encontrado instalado el software - Se ha encontrado instalado el software
+Se ha encontrado desinstalado el software - Se ha encontrado desinstalado el software

@@ -1,0 +1,19 @@
+
+--This line, and those below, will be ignored--
+
+M    Plugins/Linux/GnuPG.xml
+M    Plugins/MacOs/GnuPG.xml
+AM   config/loading.gif
+M    src/afa/control/analisis/Analisis.java
+M    src/afa/control/analisis/ReportPDF.java
+M    src/afa/control/analisis/Scheduler.java
+M    src/afa/control/analisis/Executor.java
+M    src/afa/control/filesystem/Explorer.java
+M    src/afa/control/Constants.java
+M    src/afa/model/Technique.java
+M    src/afa/model/FilePattern.java
+M    src/afa/model/Plugin.java
+M    src/afa/view/Window.java
+M    src/afa/view/Window.form
+M    index.html
+A    svn-commit.tmp

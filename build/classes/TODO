@@ -1,0 +1,15 @@
+[rails]
+
+[java]
+
+* Content admita contenido binario.
+* Menus
+* Mejorar PDF.
+* Firmar PDF.
+
+* Agregar busquedas de:
+ - Mimetype.
+ - Registro.
+
+* Cosas a mejorar:
+    - Analisis de particiones. Un hilo por particion?

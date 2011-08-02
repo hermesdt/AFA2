@@ -1,0 +1,31 @@
+
+--This line, and those below, will be ignored--
+
+M    nbproject/project.properties
+D    nbproject/groovy-build.xml
+M    nbproject/project.xml
+M    nbproject/genfiles.properties
+M    nbproject/build-impl.xml
+AM   sectionPDF.pdf
+D    src/NewClass.java
+M    src/Main.java
+M    src/TODO
+D    src/afa/control/RepositoryPlugins.java
+A    src/afa/control/plugins
+A  + src/afa/control/plugins/RepositoryPlugins.java
+A  + src/afa/control/plugins/PluginLoader.java
+A  + src/afa/control/plugins/LocalPlugins.java
+M    src/afa/control/analisis/Analisis.java
+A    src/afa/control/analisis/ReportPDF.java
+M    src/afa/control/analisis/Scheduler.java
+M    src/afa/control/analisis/Executor.java
+D    src/afa/control/PluginLoader.java
+D    src/afa/control/LocalPlugins.java
+M    src/afa/model/Technique.java
+M    src/afa/view/Window.java
+M    src/ChangeLog
+AM   libs/iText-2.1.7.jar
+M    index.html
+D    AFA2-DIST.zip
+AM   name-cert.p12
+M    build.xml

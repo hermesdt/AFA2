@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plugin SYSTEM "../Plugin.dtd">
+<plugin>
+  <metadata>
+    <name>Cryptix</name>
+    <os>MacOs</os>
+    <category>MacOs</category>
+    <author>Alvaro</author>
+    <description>Busca trazas de la aplicacion cryptix</description>
+    <last_updated>1300359173000</last_updated>
+    <tags>
+      <tag>tag_2</tag>
+      <tag>tag_3</tag>
+      <tag>tag_4</tag>
+      <tag>tag_6</tag>
+    </tags>
+  </metadata>
+  <techniques>
+    <technique>
+      <name>Cryptix.app</name>
+      <type>find_file</type>
+      <location>/Principal/Applications</location>
+      <recursively>false</recursively>
+    </technique>
+    <technique>
+      <type>find_file</type>
+      <location>/Principal/Users</location>
+      <recursively>true</recursively>
+      <content>Cryptix</content>
+    </technique>
+  </techniques>
+</plugin>

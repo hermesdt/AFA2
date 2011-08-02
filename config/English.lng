@@ -1,0 +1,67 @@
+Introduzca su nombre: - Enter your name:
+Fichero de certificado: - Certified File:
+Seleccione las unidades sobre las que quiere realizar el analisis: - Select the units on which you want to make the analysis
+Seleccione los plugins que desea utilizar en el analisis: - Select the plugins on which you want to use in the analisys
+A mayor profundidad mayor tiempo empleado - The bigger depth, the more time used
+Selecciona las acciones que desea ejecutar <br> de los siguientes programas encontrados - Select the actions you want to execute <br> from the following found programs
+Seleccione el destino del informe en formato PDF: - Select the destiny of the PDF file
+Fichero de salida: - Output file
+Firmar - Sign in
+Ejecuta el programa externo - Execute the external program
+Busca imagenes encriptadas - Search for encrypted images
+Buscado - Searching file
+Buscado el archivo - Searching file
+Buscado Archivo en todo el disco - Searching file in all drive
+en una ubicacion del registro - in a registry location
+Buscado el valor - Searching value
+en todo el registro - in all the registry
+en la seccion del registro - in the registry section
+Busca una cadena en un archivo concreto - Searching string in a specific file
+Busca la cadena - Searching string
+en los archivos de todo el disco - in all drive files
+Busca una cadena en los archivos del directorio - Searching string in all directory file
+en el directorio - in all the directory
+No se ha elegido un fichero para firmar, no se podran firmar los informes - No selected file to sign, the reports will not be signed
+Datos del analista forense - Foresinc analyse data
+Seleccion de la unidad - Select drive
+Seleccion de los plugins - Select plugins
+Profundidad de analisis - Analysis depth
+Programas detectados: - Detected programs
+Generacion del informe: - Report generation
+COMPROBACIONES - CHECKING
+Fecha - Date
+Analista - Analyst
+Tecnica que : - Technic that:
+Comprueba si el software esta: - checks if the software is
+RESULTADOS: - RESULTS:
+Tipo parametro: - Searched:
+Valor: - Found:
+ACCIONES - ACTIONS
+Accion que: - Action that:
+La accion - The action
+tiene explicacion - has an explanation
+Resultados de la accion: - Results of the action
+No hay resultados asociados a la accion - No results associated with the action
+Firmar pdf de analisis forense - Signing the forensic PDF file
+Pais - Spain
+Buscando en todo el disco ficheros - Searching files in all the drive
+Buscando en todo el disco cadenas - Searching strings in all the drive
+Buscando en la unidad - Searching in the unit
+Espere por favor,realizando las operaciones solicitadas - Please wait, executing the requested operations
+Anterior - < Back
+Siguiente - Next >
+Finalizar - Finish
+Cancelar - Cancel
+Ayuda - Help
+Introduzca su clave para firmar: - Enter your password to sign:
+Ejecutado sobre la unidad - Executed on the unit
+Bajo - Low
+Medio - Medium
+Alto - High
+Se han encontrado resultados con el plugin - Results founded with the plugin
+Resumen - Summary
+El plugin - Plugin
+ha encontrado restos del software - software remainders found
+Seleccionar todo - Select all
+Se ha encontrado instalado el software - Installed software found:
+Se ha encontrado desinstalado el software - Uninstalled software found:

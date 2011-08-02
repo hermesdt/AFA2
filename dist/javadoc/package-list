@@ -1,0 +1,10 @@
+
+afa.control
+afa.control.analisis
+afa.control.database
+afa.control.filesystem
+afa.control.net
+afa.control.plugins
+afa.model
+afa.model.filesystem
+afa.view
