@@ -78,6 +78,7 @@ class PluginLoader {
 
         for(Element tech : techs){
             Technique t = new Technique(extractParams(tech));
+            t.setType(tech.getName());
             vec.add(t);
         }
 

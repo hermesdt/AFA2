@@ -1,67 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT plugin (metadata,techniques,post_analisis)>
+<!ELEMENT plugin (metadata,techniques)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT metadata (name, os, version, author?, date?, category, labels?, description?)>
+<!ELEMENT metadata (name, os, category, last_updated, author?, tags?, description?)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT name (#PCDATA)>
+<!ELEMENT name (#PCDATA)><!-- Nombre del plugin -->
+<!ELEMENT os (#PCDATA)><!-- Sistema operativo -->
+<!ELEMENT category (#PCDATA)><!-- Sistema operativo -->
+<!ELEMENT author (#PCDATA)><!-- Nombre del author -->
+<!ELEMENT last_updated (#PCDATA)><!-- Fecha ultima actualizacion -->
+<!ELEMENT tags (tag)*><!-- Conjunto de tags asociados -->
+<!ELEMENT tag (#PCDATA)><!-- Etiqueta que aporta informacion extra -->
+<!ELEMENT description (#PCDATA)><!-- Descripcion -->
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT os (#PCDATA)>
+<!ELEMENT techniques (find_file)+>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT version (#PCDATA)>
+<!ELEMENT find_file (name?, location, content?, hash?,  recursively?, mimetype?, installed?, on_success?)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT author (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT date (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT category (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT labels (label)*>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT label (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT description (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT techniques (technique)+>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT technique (type, location, (name|partial_content|hash|recursively|installed|on_success)+)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT type (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT location (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT partial_content (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
+<!ELEMENT location (#PCDATA)><!--  -->
+<!ELEMENT content (#PCDATA)>
 <!ELEMENT hash (type, value)>
-
-<!--- Put your DTDDoc comment here. -->
+<!ELEMENT type (#PCDATA)>
 <!ELEMENT value (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
+<!ELEMENT mimetype (#PCDATA)>
 <!ELEMENT recursively (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT installed (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT on_success (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT post_analisis (#PCDATA)>

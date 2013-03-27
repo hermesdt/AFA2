@@ -104,7 +104,7 @@ public class Analisis {
     }
 
     private static boolean ignoreFindFileTechniques(Technique t){
-        return t.getParam("type").getValue().equals("find_file") && ignoreFindFileTechniques;
+        return t.getType().equals("find_file") && ignoreFindFileTechniques;
     }
 
     private static boolean ignoreFileContentTechniques(Technique t){

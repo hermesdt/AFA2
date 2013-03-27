@@ -5,28 +5,26 @@
     <name>Cryptix</name>
     <os>MacOs</os>
     <category>MacOs</category>
+    <last_updated>1364412039000</last_updated>
     <author>Alvaro</author>
-    <description>Busca trazas de la aplicacion cryptix</description>
-    <last_updated>1300359173000</last_updated>
     <tags>
       <tag>tag_2</tag>
       <tag>tag_3</tag>
       <tag>tag_4</tag>
       <tag>tag_6</tag>
     </tags>
+    <description>Busca trazas de la aplicacion cryptix</description>
   </metadata>
   <techniques>
-    <technique>
+    <find_file>
       <name>Cryptix.app</name>
-      <type>find_file</type>
       <location>/Principal/Applications</location>
       <recursively>false</recursively>
-    </technique>
-    <technique>
-      <type>find_file</type>
+    </find_file>
+    <find_file>
       <location>/Principal/Users</location>
-      <recursively>true</recursively>
       <content>Cryptix</content>
-    </technique>
+      <recursively>true</recursively>
+    </find_file>
   </techniques>
 </plugin>

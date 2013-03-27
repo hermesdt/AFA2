@@ -154,7 +154,7 @@ class Executor {
      * Metodo encargado de ejecutar la tecnica. En funcion del tipo llamara a un metodo u otro.
      */
     static void executeTechnique(Device dev, Technique t) throws Exception {
-        if (t.getParam("type").getValue().equals("find_file")) {
+        if (t.getType().equals("find_file")) {
             executeFindFile(dev, t);
         }
     }
@@ -180,7 +180,7 @@ class Executor {
         Vector<Technique> recursiveFindFile = new Vector<Technique>();
 
         for (Technique t : vec) {
-            if (t.getParam("type").getValue().equals("find_file")) {
+            if (t.getType().equals("find_file")) {
                 if (t.getParam("recursively").getValue().equals("true")) {
                     recursiveFindFile.add(t);
                     continue;

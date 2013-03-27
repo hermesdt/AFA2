@@ -5,27 +5,25 @@
     <name>GnuPG</name>
     <os>MacOs</os>
     <category>MacOs</category>
+    <last_updated>1364412039000</last_updated>
     <author>Alvaro</author>
-    <description></description>
-    <last_updated>1301085134000</last_updated>
     <tags>
       <tag>tag_4</tag>
       <tag>tag_5</tag>
       <tag>tag_6</tag>
     </tags>
+    <description></description>
   </metadata>
   <techniques>
-    <technique>
+    <find_file>
       <name>GnuPG</name>
-      <type>find_file</type>
       <location>/Principal/Library/Documentation</location>
       <recursively>false</recursively>
-    </technique>
-    <technique>
+    </find_file>
+    <find_file>
       <name>gpg.docs.english.pkg</name>
-      <type>find_file</type>
       <location>/Principal/Library/Receipts</location>
       <recursively>false</recursively>
-    </technique>
+    </find_file>
   </techniques>
 </plugin>

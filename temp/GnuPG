@@ -3,50 +3,27 @@
 <plugin>
   <metadata>
     <name>GnuPG</name>
-    <os>Linux</os>
-    <category>Linux</category>
+    <os>MacOs</os>
+    <category>MacOs</category>
+    <last_updated>1364412039000</last_updated>
     <author>Alvaro</author>
-    <description></description>
-    <last_updated>1301354965000</last_updated>
     <tags>
-      <tag>tag_1</tag>
-      <tag>tag_2</tag>
-      <tag>tag_3</tag>
+      <tag>tag_4</tag>
+      <tag>tag_5</tag>
+      <tag>tag_6</tag>
     </tags>
+    <description></description>
   </metadata>
   <techniques>
-    <technique>
-      <name>gpg</name>
-      <type>find_file</type>
-      <location>/usr/bin</location>
+    <find_file>
+      <name>GnuPG</name>
+      <location>/Principal/Library/Documentation</location>
       <recursively>false</recursively>
-    </technique>
-    <technique>
-      <name>gpg.1.gz</name>
-      <type>find_file</type>
-      <location>/usr/share/man</location>
-      <recursively>true</recursively>
-    </technique>
-    <technique>
-      <type>find_file</type>
-      <location>/usr/share/man</location>
-      <recursively>true</recursively>
-      <hash>
-        <type>MD5</type>
-        <value>dd49cfeb3b7f53f0521936153bd35eca</value>
-      </hash>
-    </technique>
-    <technique>
-      <type>find_file</type>
-      <location>/usr/share/vin/vim73</location>
-      <recursively>true</recursively>
-      <content>syn keyword gpgCommand  contained skipwhite nextgroup=gpgArg</content>
-    </technique>
-    <technique>
-      <type>find_file</type>
+    </find_file>
+    <find_file>
+      <name>gpg.docs.english.pkg</name>
+      <location>/Principal/Library/Receipts</location>
       <recursively>false</recursively>
-      <content>1024x600</content>
-      <mimetype>image/gif</mimetype>
-    </technique>
+    </find_file>
   </techniques>
 </plugin>

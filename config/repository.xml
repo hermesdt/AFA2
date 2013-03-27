@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugins>
+  <plugin>
+    <name>GnuPG</name>
+    <category>Linux</category>
+    <location>/plugins/5.xml</location>
+    <last_updated>1364412039000</last_updated>
+  </plugin>
+  <plugin>
+    <name>Cryptix</name>
+    <category>MacOs</category>
+    <location>/plugins/10.xml</location>
+    <last_updated>1364412039000</last_updated>
+  </plugin>
+  <plugin>
+    <name>GnuPG</name>
+    <category>MacOs</category>
+    <location>/plugins/11.xml</location>
+    <last_updated>1364412039000</last_updated>
+  </plugin>
+</plugins>

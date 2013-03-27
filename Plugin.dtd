@@ -1,67 +1,29 @@
 <?xml version='1.0' encoding='UTF-8'?>
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT plugin (metadata,techniques,post_analisis)>
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT metadata (name, os, version, author?, date?, category, labels?, description?)>
 
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT name (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT os (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT version (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT author (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
-<!ELEMENT date (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
+<!ELEMENT name (#PCDATA)><!-- Nombre del plugin -->
+<!ELEMENT os (#PCDATA)><!-- Sistema operativo -->
+<!ELEMENT version (#PCDATA)><!-- Version -->
+<!ELEMENT author (#PCDATA)><!-- Nombre del author -->
+<!ELEMENT date (#PCDATA)><!-- fecha -->
 <!ELEMENT category (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT labels (label)*>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT label (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT description (#PCDATA)>
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT techniques (technique)+>
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT technique (type, location, (name|partial_content|hash|recursively|installed|on_success)+)>
 
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT type (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT location (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT partial_content (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT hash (type, value)>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT value (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT recursively (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT installed (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT on_success (#PCDATA)>
-
-<!--- Put your DTDDoc comment here. -->
 <!ELEMENT post_analisis (#PCDATA)>

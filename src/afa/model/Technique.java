@@ -27,6 +27,8 @@ public class Technique {
 
     private Vector<Result> results = new Vector<Result>();
     
+    private String type;
+    
     /**
      * Constructor de la clase Tecnica
      */
@@ -103,5 +105,13 @@ public class Technique {
 
     public Result getLastResult(Device dev) {
         return getResults(dev).lastElement();
+    }
+    
+    public String getType(){
+        return type;
+    }
+    
+    public void setType(String type){
+        this.type = type;
     }
 }
